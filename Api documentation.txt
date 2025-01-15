@@ -1,0 +1,63 @@
+
+## API Documentation
+
+### 1. **IP Geolocation API (ipinfo.io)**
+   **Purpose**: Fetches geolocation details such as city, region, country, and ISP information for a given IP address.
+
+   **URL Example**:
+   ```plaintext
+   https://ipinfo.io/{ip}/json?token=YOUR_TOKEN
+   ```
+
+### 2. **MAC Vendor Lookup API (macvendors.com)**
+   **Purpose**: Identifies the vendor or manufacturer of a device based on its MAC address.
+
+   **URL Example**:
+   ```plaintext
+   https://api.macvendors.com/{mac_address}
+   ```
+
+### 3. **Phone Number Geolocation API (NumVerify)**
+   **Purpose**: Validates and fetches geolocation details, carrier, and line type for a phone number.
+
+   **URL Example**:
+   ```plaintext
+   http://apilayer.net/api/validate?access_key=YOUR_API_KEY&number={phone_number}
+   ```
+
+### 4. **HERE Geocoding & Search API**
+   **Purpose**: Converts addresses into geographic coordinates (latitude and longitude) and performs reverse geocoding.
+
+   **Geocode URL Example**:
+   ```plaintext
+   https://geocode.search.hereapi.com/v1/geocode?q={address}&apiKey=YOUR_API_KEY
+   ```
+
+   **Reverse Geocode URL Example**:
+   ```plaintext
+   https://revgeocode.search.hereapi.com/v1/revgeocode?at={latitude},{longitude}&apiKey=YOUR_API_KEY
+   ```
+
+### 5. **HERE Routing API**
+   **Purpose**: Calculates routes between multiple locations, providing total distance and duration.
+
+   **URL Example**:
+   ```plaintext
+   https://router.hereapi.com/v8/routes?transportMode=car&origin={start_coords}&destination={end_coords}&return=summary&apiKey=YOUR_API_KEY
+   ```
+
+### 6. **Weather API (WeatherAPI.com)**
+   **Purpose**: Fetches real-time weather information for a given location.
+
+   **URL Example**:
+   ```plaintext
+   http://api.weatherapi.com/v1/current.json?key=YOUR_API_KEY&q={location}
+   ```
+
+### 7. **OpenSky Network API**
+   **Purpose**: Provides live flight tracking data, including location, altitude, and speed.
+
+   **URL Example**:
+   ```plaintext
+   https://opensky-network.org/api/states/all
+   ```

@@ -41,7 +41,7 @@ start_time = None  # Variable to store the start time of the scan
 # Function to get geolocation for an IP
 def get_geolocation(ip):
     try:
-        response = requests.get(f"https://ipinfo.io/{ip}/json?token=3313d645181405")
+        response = requests.get(f"https://ipinfo.io/{ip}/json?token=your api")
         if response.status_code == 200:
             data = response.json()
             return {
@@ -568,7 +568,7 @@ country_codes = {
 
 # Function to fetch geolocation data using NumVerify API
 def fetch_geolocation(phone_number):
-    API_KEY = "7082823b8363990fd0206abc574bb09d"  # Replace with your NumVerify API key
+    API_KEY = "your api"  # Replace with your NumVerify API key
     API_URL = f"http://apilayer.net/api/validate?access_key={API_KEY}&number={phone_number}"
     
     try:
@@ -879,8 +879,8 @@ def f_on_country_input(event):
     country_menu['values'] = filtered_countries if filtered_countries else countries
 
 # Global Variables
-API_KEY = "NsaDQ9YJguXNcYRzfyJSvM4OAd3-NzLin7CVzscUSzo"
-WEATHER_API_KEY = "3c2a6d83082041dcb59113918242612"
+API_KEY = "your api"
+WEATHER_API_KEY = "your api"
 
 coordinates_list = []
 markers = []
