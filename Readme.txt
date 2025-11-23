@@ -1,8 +1,8 @@
 ## readme.txt
 
-# A4 Contraband
+# A4 OSINT
 
-A4 Contraband is a comprehensive cybersecurity tool designed for network and system analysis. The tool offers several advanced features including IP scanning, port scanning, geolocation tracking, MAC address lookup, phone number analysis, email OSINT, live flight monitoring, and route calculations.
+A4 OSINT is a comprehensive cybersecurity tool designed for network and system analysis. The tool offers several advanced features including IP scanning, port scanning, geolocation tracking, MAC address lookup, phone number analysis, email OSINT, live flight monitoring, and route calculations.
 
 ## Features
 
@@ -67,3 +67,4 @@ A4 Contraband is a comprehensive cybersecurity tool designed for network and sys
 
 ## License
 This project is licensed under the MIT License.
+
